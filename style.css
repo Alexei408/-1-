@@ -220,16 +220,10 @@
     text-align: center;
 }
 
-/*footer*/
+/*footer-top*/
 .footer-top {
     background: #222222;
 }
-
-.footer-bottom {
-    background: #222222;
-}
-
-
 
 .footer-box {
     display: flex;
@@ -244,6 +238,7 @@
 
 .advantage-text {
     text-align: center;
+    color: #FBFBFB;
 }
 
 .advantage-photo {
@@ -262,22 +257,26 @@
 /*footer coment*/
 .footer-content {
     background-image: url(img/footerphoto.jpg);
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 .content-box {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .coment {
     flex-direction: column;
     display: flex;
     width: 360px;
+    padding-top: 87px;
+    padding-bottom: 126px;
 }
 
 .comentphoto {
     align-self: center;
+    padding-bottom: 30px;
 }
 
 .user_coment {
@@ -292,6 +291,102 @@
 }
 
 .subcontact {
-    width: 560px;
+    /*width: 560px;*/
     text-align: center;
+}
+
+/*Кнопка в футере*/
+.contact-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.inout-mail {
+    /*position: relative;*/
+    margin-top: 32px;
+
+}
+
+.text-enter {
+    border-radius: 25px 0 0 25px;
+
+
+    background: #E1E1E1;
+    line-height: 17px;
+    padding-left: 22px;
+
+    float: left;
+    border: 0 solid;
+    width: 256px;
+    height: 49px;
+    box-sizing: border-box;
+}
+
+.text-button {
+    /*position: absolute;*/
+
+    border-radius: 0 25px 25px 0;
+    width: 100px;
+    line-height: 17px;
+    height: 49px;
+    background: #F16D7F;
+    color: #FFFFFF;
+    border: 0 solid;
+}
+
+.email_title {
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+    font-weight: 700;
+}
+
+.email_text {
+    font-size: 18px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+    font-weight: 400;
+}
+
+/*footer-bottom*/
+
+.footer-bottom {
+    background: #222222;
+}
+
+.copiraite {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.botton {
+    justify-content: space-between;
+    display: flex;
+}
+
+.cochium {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.link {
+    padding: 8px 12px;
+    background: #FFFFFF;
+    margin-right: 7px;
+}
+
+/*выпадающее меню*/
+.menu-box {
+    background: #FFFFFF;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 }
