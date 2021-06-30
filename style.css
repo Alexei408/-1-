@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #222222;
+    height: 75px;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.poisk {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.menu {
+    padding: 15px;
+}
+
+.account {
+    padding: 15px;
+}
+
+.korzina {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.banner {
+    background: #F1E4E6;
+}
+
+.banner-block {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.brandphoto {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner-text {
+    width: 377px;
+    border-left: 12px solid #F16D7F;
+    padding-left: 12px;
+    margin-top: 224px;
+    height: 75px;
+}
+
+.the-brand {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+
+.span-fashion {
+    color: red
+}
+
+/*первая секция предложения*/
+.offter_top {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 65px;
+    justify-content: space-between;
+}
+
+.offer-box:last-of-type {
+    margin-top: 30px;
+    margin-bottom: 96px;
+    width: 1140px;
+    height: 180px;
+}
+
+.offer-box {
+
+    /* background-repeat: no-repeat;*/
+    display: flex;
+    /* background-position: center; */
+    /* position: absolute; */
+    justify-content: center;
+    /* align-content: center; */
+    /* flex-grow: 1; */
+    /* align-items: center;*/
+    width: 360px;
+    flex-direction: column;
+    height: 260px;
+}
+
+.box-WOMEN {
+    background-image: url(img/womenphoto.jpg);
+}
+
+.box-men {
+    background-image: url(img/menphoto.jpg);
+}
+
+.box-kids {
+    background-image: url(img/kidsphoto.jpg);
+}
+
+.box-accesories {
+    background-image: url(img/accesoriesphoto.jpg);
+}
+
+
+
+.offer-title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.red-color {
+    color: #F16D7F;
+}
+
+/*вторая секция каталог*/
+.catalog_title {
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.catalog_text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.catalog-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+}
+
+.product {
+    background: #F8F8F8;
+    height: 581px;
+    width: 360px;
+    margin-bottom: 30px;
+}
+
+.product_title {
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding-top: 25px;
+    padding-left: 18px;
+    padding-bottom: 13px;
+}
+
+.product_sum {
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    padding-left: 18px;
+    padding-top: 18px;
+}
+
+.button_product {
+    border: 1px solid #FF6A6A;
+    padding: 15px 38px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    text-decoration: none;
+}
+
+.button {
+    margin-bottom: 95px;
+    text-align: center;
+}
+
+/*footer-top*/
+.footer-top {
+    background: #222222;
+}
+
+.footer-box {
+    display: flex;
+    padding-top: 103px;
+    padding-bottom: 104px;
+}
+
+.advantage {
+    flex-direction: column;
+    display: flex;
+}
+
+.advantage-text {
+    text-align: center;
+    color: #FBFBFB;
+}
+
+.advantage-photo {
+    align-self: center;
+    padding-bottom: 28px;
+}
+
+.procent {
+    padding-bottom: 19px;
+}
+
+.king {
+    padding-bottom: 25px;
+}
+
+/*footer coment*/
+.footer-content {
+    background-image: url(img/footerphoto.jpg);
+    background-size: 100% 100%;
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coment {
+    flex-direction: column;
+    display: flex;
+    width: 360px;
+    padding-top: 87px;
+    padding-bottom: 126px;
+}
+
+.comentphoto {
+    align-self: center;
+    padding-bottom: 30px;
+}
+
+.user_coment {
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+}
+
+.subcontact {
+    /*width: 560px;*/
+    text-align: center;
+}
+
+/*Кнопка в футере*/
+.contact-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.inout-mail {
+    /*position: relative;*/
+    margin-top: 32px;
+
+}
+
+.text-enter {
+    border-radius: 25px 0 0 25px;
+
+
+    background: #E1E1E1;
+    line-height: 17px;
+    padding-left: 22px;
+
+    float: left;
+    border: 0 solid;
+    width: 256px;
+    height: 49px;
+    box-sizing: border-box;
+}
+
+.text-button {
+    /*position: absolute;*/
+
+    border-radius: 0 25px 25px 0;
+    width: 100px;
+    line-height: 17px;
+    height: 49px;
+    background: #F16D7F;
+    color: #FFFFFF;
+    border: 0 solid;
+}
+
+.email_title {
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+    font-weight: 700;
+}
+
+.email_text {
+    font-size: 18px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+    font-weight: 400;
+}
+
+/*footer-bottom*/
+
+.footer-bottom {
+    background: #222222;
+}
+
+.copiraite {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.botton {
+    justify-content: space-between;
+    display: flex;
+}
+
+.cochium {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.link {
+    padding: 8px 12px;
+    background: #FFFFFF;
+    margin-right: 7px;
+}
+
+/*выпадающее меню*/
+.menu-box {
+    background: #FFFFFF;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
